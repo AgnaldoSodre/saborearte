@@ -1,0 +1,93 @@
+.section{
+    margin: 0 auto;
+}
+
+.section h1{
+    text-align: center;
+    color: #987070;
+    font-size: 4em;
+    margin-top: 1.5em;
+    letter-spacing: 10px;
+}
+
+
+.writer{
+    display: inline-block;
+}
+
+.writer .text{
+    text-align: center;
+    color: #987070;
+    font-size: 3em;
+    margin: .5em 0;
+    letter-spacing: 10px;
+    border-right: 2.5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: write 2s steps(24),
+               cursor .4s step-end infinite alternate;
+}
+
+/*formulario*/
+
+.form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form .input_text{
+    width: 60%;
+    margin: 0 auto;
+    height: 40px;
+    padding: 20px;
+}
+
+.form .input_select{
+    width: 60%;
+    margin: 0 auto;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.form .input_textarea{
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    padding: 20px;
+    resize: none;
+}
+
+.form .input_submit{
+    width: 20%;
+    margin: 0 auto;
+    height: 40px;
+    color: #fff;
+    background-color: #987070;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.form .input_submit:hover{
+    background-color: #c09595;
+}
+
+
+
+/*animaçoes*/
+
+@keyframes write {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes cursor {
+    50%{border-color: transparent;}
+}

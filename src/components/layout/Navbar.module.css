@@ -1,0 +1,23 @@
+
+
+.lista{
+    display: flex;
+    width: 500px;
+}
+
+.lista li{
+    margin: 10px auto;
+    list-style: none;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: #FFF8E3;
+    font-size: 24px;
+}
+
+.lista li a:hover{
+    color: #987070;
+    padding-bottom: 40px;
+    border-bottom: 4px solid #987070;
+}

@@ -7,7 +7,7 @@ function Catalogo() {
             <div className={styles.container}>
 
                 <div className={styles.h1_container}>
-                    <h1>Catalogo</h1>
+                    <h1>Catálogo</h1>
                 </div>
 
                 <div className={styles.writer}>
@@ -44,7 +44,7 @@ function Catalogo() {
                         </div>
 
                         <div className={`${styles.produtos} ${styles.torta_chocolate}`}>
-                            <p>bolo de chocolate <span>R$10,00</span></p>
+                            <p>torta de chocolate <span>R$10,00</span></p>
                         </div>
                         <div className={`${styles.produtos} ${styles.torta_morango}`}>
                             <p>torta de morango <span>R$25,99</span></p>
@@ -66,19 +66,19 @@ function Catalogo() {
                         </div>
 
                         <div className={`${styles.produtos} ${styles.doce_chocolate}`}>
-                            <p>bolo de chocolate <span>R$8,99</span></p>
+                            <p>doce de chocolate <span>R$8,99</span></p>
                         </div>
                         <div className={`${styles.produtos} ${styles.doce_limao}`}>
-                            <p>bolo de laranja <span>R$8,99</span></p>
+                            <p>doce de limão <span>R$8,99</span></p>
                         </div>
                         <div className={`${styles.produtos} ${styles.doce_morango}`}>
-                            <p>bolo de limão <span>R$8,99</span></p>
+                            <p>morangoffe <span>R$8,99</span></p>
                         </div>
                         <div className={`${styles.produtos} ${styles.banoffe}`}>
-                            <p>bolo de cenoura <span>R$8,99</span></p>
+                            <p>banoffe <span>R$8,99</span></p>
                         </div>
                         <div className={`${styles.produtos} ${styles.doce_cenoura}`}>
-                            <p>bolo de aniversário <span>R$8,99</span></p>
+                            <p>doce de cenoura <span>R$8,99</span></p>
                         </div>
                     </div>
 

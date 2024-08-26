@@ -47,7 +47,7 @@
 
 .produtos_list .chamada{
     height: 200px;
-    width: 85%;
+    width: 90%;
     display: flex;
     margin: 100px auto;
     
@@ -133,7 +133,7 @@
 .bolo_aniversario{
     background-image: url(../../img/bolo_aniversario.jpg);
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 30%;
 }
 
 /*tortas*/

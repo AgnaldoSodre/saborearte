@@ -5,6 +5,8 @@ import Contato from './components/pages/Contato'
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Container from './components/layout/Container';
+import Carrinho from './components/pages/Carrinho';
+import Pagamento from './components/pages/Pagamento';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
               <Route path="/catalogo" element={<Catalogo />} />
 
               <Route path="/contato" element={<Contato /> } />
+
+              <Route path="/carrinho" element={<Carrinho /> } />
+
+              <Route path="/pagamento" element={<Pagamento /> } />
 
             </Routes>
         </Container>

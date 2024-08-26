@@ -1,0 +1,35 @@
+.infos{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.infos .infos_solo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.infos .infos_solo svg{
+    height: 50px;
+    width: 50px;
+    color: #E6A4B4;
+    margin-right: 10px;
+}
+
+.solo_text{
+    width: 200px;
+}
+
+.solo_text h5{
+    font-size: 18px;
+    color: #E6A4B4;
+}
+
+.solo_text span{
+    font-size: 16px;
+    color: #E6A4B4;
+}

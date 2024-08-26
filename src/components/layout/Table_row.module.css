@@ -1,0 +1,21 @@
+
+/* table */
+
+.tablerow{
+    width: 60%;
+    color: #987070;
+    border-collapse: collapse;
+}
+
+
+.tablerow tr th{
+    height: 40px;
+}
+
+.tablerow tr td{
+    width: 100px;
+    height: 159px;
+    margin: 10px 0;
+    text-align: center;  
+}
+

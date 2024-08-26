@@ -9,7 +9,9 @@ function Header(){
 
         <Link to="/" className={styles.logo}>
 
-          <GiPieSlice />  
+        <a>sabor e arte</a>
+          <GiPieSlice /> 
+          
 
         </Link>
 

@@ -1,0 +1,51 @@
+/*aside*/
+
+.aside_compra{
+    width: 20%;
+    height: 200px;
+    margin: 20px 0 0 40px ;
+    background-color: purple;
+}
+
+.aside_compra .resumo_container{
+    background-color: #eee;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+}
+
+.aside_compra .resumo_container h2{
+    font-size: 18px;
+    color: #b39090;
+}
+
+.aside_compra .sub_total_container{
+    background-color: #eee;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    
+}
+
+.aside_compra .span_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+.aside_compra .sub_total_container span{
+    font-size: 16px;
+    color: #987070 ;
+}
+
+.aside_compra .total_container{
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+}
+
+.aside_compra .total_container span{
+    color: #987070;
+    font-size: 18px;
+}
